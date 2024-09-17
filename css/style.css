@@ -1,0 +1,157 @@
+
+:root{
+	--color-general:#888585;
+	--fondo-header:#4e4e4e;
+	--fondo-footer:#383737;
+
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	color: var(--color-general);
+}
+
+
+
+
+header{
+	background-color: var(--fondo-header);
+
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	background-color: var(--fondo-footer);
+	padding: 30px 0;
+}
+
+
+:root {
+    --color-general: #888585;
+    --color-titulos: #3c3838;
+    --color-azul: #41c1fe;
+    --fondo-gris: #f3f3f3;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-general);
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-titulos);
+}
+
+
+#hero {
+    background-image: url("file:///C:/Users/fiore/OneDrive/Prueba/img/about_bg.jpg");
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 50px 0; /* Ajusta el padding superior e inferior según tus necesidades */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+#hero .container {
+    max-width: 1200px; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px; /* Añade padding a los lados del contenedor */
+}
+
+.breadcrumb {
+    background-color: transparent; /* Hace que el fondo del breadcrumb sea transparente para que se vea la imagen de fondo */
+    padding: 0; /* Ajusta el padding según sea necesario */
+    margin: 0; /* Ajusta el margen según sea necesario */
+    list-style: none; /* Elimina los estilos de lista predeterminados */
+}
+
+
+
+
+
+#welcome {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#welcome h2 {
+    margin-bottom: 30px;
+}
+
+#welcome .feature {
+    margin-bottom: 20px;
+}
+
+#welcome button {
+    background-color: var(--color-azul);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+#welcome img {
+    max-width: 100%; 
+    height: auto; 
+}
+#coaches {
+    background-color: var(--fondo-gris);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#coaches img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+#history {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+#history img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+#gallery {
+    background-color: var(--fondo-gris);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#gallery .row {
+    justify-content: center;
+}
+
+#gallery a img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+footer {
+    background-color: #3c3838;
+    color: #888585;
+    padding: 50px 20px;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #888585;
+}
+
+.social-icons a {
+    color: #888585;
+    margin: 0 10px;
+    font-size: 1.5em;
+}

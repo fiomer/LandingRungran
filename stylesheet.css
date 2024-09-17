@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+:root {
+    --color-general: #888585;
+    --color-titulos: #3c3838;
+    --color-azul: #41c1fe;
+    --fondo-gris: #f3f3f3;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-general);
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-titulos);
+}
+
+
+#hero {
+    background-color: var(--color-azul);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+#welcome {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#welcome button {
+    background-color: var(--color-azul);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#coaches {
+    background-color: var(--fondo-gris);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+#history {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+#gallery {
+    background-color: var(--fondo-gris);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#gallery .gallery a img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+}
